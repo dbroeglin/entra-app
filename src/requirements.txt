@@ -8,7 +8,7 @@ aiofiles==24.1.0
     # via quart
 aiohappyeyeballs==2.4.4
     # via aiohttp
-aiohttp==3.11.10
+aiohttp==3.11.11
     # via quartapp (pyproject.toml)
 aiosignal==1.3.2
     # via aiohttp
@@ -42,7 +42,7 @@ cffi==1.17.1
     # via cryptography
 charset-normalizer==3.4.0
     # via requests
-click==8.1.7
+click==8.1.8
     # via
     #   flask
     #   quart
@@ -94,7 +94,7 @@ itsdangerous==2.2.0
     # via
     #   flask
     #   quart
-jinja2==3.1.4
+jinja2==3.1.5
     # via
     #   flask
     #   quart
@@ -115,11 +115,11 @@ multidict==6.1.0
     # via
     #   aiohttp
     #   yarl
-openai==1.57.4
+openai==1.58.1
     # via quartapp (pyproject.toml)
 packaging==24.2
     # via gunicorn
-portalocker==2.10.1
+portalocker==3.0.0
     # via msal-extensions
 priority==2.0.0
     # via hypercorn
@@ -129,9 +129,9 @@ propcache==0.2.1
     #   yarl
 pycparser==2.22
     # via cffi
-pydantic==2.10.3
+pydantic==2.10.4
     # via openai
-pydantic-core==2.27.1
+pydantic-core==2.27.2
     # via pydantic
 pyjwt[crypto]==2.10.1
     # via
@@ -168,7 +168,7 @@ typing-extensions==4.12.2
     #   openai
     #   pydantic
     #   pydantic-core
-urllib3==2.2.3
+urllib3==2.3.0
     # via requests
 uvicorn[standard]==0.34.0
     # via quartapp (pyproject.toml)
